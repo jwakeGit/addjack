@@ -23,6 +23,9 @@ const G = {
 }
 
 options = {
+  isCapturing: true,
+  isCapturingGameCanvasOnly: true,
+  captureCanvasScale: 2
   viewSize: {x: G.WIDTH, y: G.HEIGHT},
   isPlayingBgm: true,
   isReplayEnabled: true,
